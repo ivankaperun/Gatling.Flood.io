@@ -1,0 +1,9 @@
+RUN	demoIvanka.HomeTask	hometask	1645043442721	 	3.6.1
+USER	HomeTask	START	1645043443347
+REQUEST		Open Homepage	1645043443356	1645043444234	OK	 
+REQUEST		Click Button Start	1645043445775	1645043445995	OK	 
+REQUEST		Select Age	1645043447657	1645043447916	OK	 
+REQUEST		Click Button Next	1645043447927	1645043448142	OK	 
+REQUEST		Select Order With Max Value	1645043449766	1645043450004	KO	j.c.CSSellyException: Invalid combinator </>. (state: 6)
+ERROR	Post_Enter_Max_Number: Failed to build request: No attribute named 'challenger_step_id_2' is defined 	1645043450028
+USER	HomeTask	END	1645043451643

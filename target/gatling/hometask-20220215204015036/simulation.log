@@ -1,0 +1,7 @@
+RUN	demoIvanka.HomeTask	hometask	1644957615036	 	3.6.1
+USER	HomeTask	START	1644957615778
+REQUEST		Open_Homepage	1644957615791	1644957616626	KO	xpath((//input[@name='authenticity_token']/@value,Map())).find.exists preparation crashed: Could not parse response into a DOM Document: n.s.s.t.XPathException: org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 3; The element type "link" must be terminated by the matching end-tag "</link>".
+ERROR	Post_Start_Quiz: Failed to build request: No attribute named 'authenticity_token' is defined 	1644957618814
+REQUEST		Get_Back_To_Homepage	1644957620326	1644957620543	OK	 
+REQUEST		css?family=Lobster|Lobster+Two	1644957620586	1644957620759	OK	 
+USER	HomeTask	END	1644957620773

@@ -1,0 +1,10 @@
+{
+  "simulation": "demoIvanka.HomeTask",
+  "simulationId": "hometask",
+  "start": 1645048510817,
+  "description": "uyytt",
+  "scenarios": ["HomeTask"],
+  "assertions": [
+
+  ]
+}

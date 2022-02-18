@@ -1,0 +1,9 @@
+RUN	demoIvanka.HomeTask	hometask	1645043774622	 	3.6.1
+USER	HomeTask	START	1645043775334
+REQUEST		Open Homepage	1645043775343	1645043776206	OK	 
+REQUEST		Click Button Start	1645043778056	1645043778314	OK	 
+REQUEST		Select Age	1645043779941	1645043780163	OK	 
+REQUEST		Click Button Next	1645043780173	1645043780383	OK	 
+REQUEST		Select Order With Max Value	1645043782193	1645043782426	KO	xpath((//label[contains(text(),'214')]/@for,Map())).find.exists preparation crashed: Could not parse response into a DOM Document: n.s.s.t.XPathException: org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 3; The element type "link" must be terminated by the matching end-tag "</link>".
+ERROR	Post_Enter_Max_Number: Failed to build request: No attribute named 'order_selected' is defined 	1645043782560
+USER	HomeTask	END	1645043784472

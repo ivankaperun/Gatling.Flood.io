@@ -1,0 +1,9 @@
+RUN	demoIvanka.HomeTask	hometask	1644961640217	bhjjkklkl	3.6.1
+USER	HomeTask	START	1644961641265
+REQUEST		Open_Homepage	1644961641276	1644961642153	OK	 
+REQUEST		css?family=Lobster|Lobster+Two	1644961642231	1644961642417	OK	 
+REQUEST		Post_Start_Quiz	1644961643750	1644961643981	OK	 
+REQUEST		Post_Start_Quiz Redirect 1	1644961643985	1644961644287	OK	 
+REQUEST		Post_Enter_Age	1644961645961	1644961646195	OK	 
+REQUEST		Post_Enter_Age Redirect 1	1644961646196	1644961646539	KO	css((#new_challenger > table > tbody > tr > td > div > span > label,None)).findAll.exists, found nothing
+USER	HomeTask	END	1644961647831

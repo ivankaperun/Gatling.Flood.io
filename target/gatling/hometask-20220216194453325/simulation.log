@@ -1,0 +1,9 @@
+RUN	demoIvanka.HomeTask	hometask	1645040693325	 	3.6.1
+USER	HomeTask	START	1645040693902
+REQUEST		Open Homepage	1645040693911	1645040695425	OK	 
+REQUEST		Click Button Start	1645040696573	1645040696782	OK	 
+REQUEST		Select Age	1645040698438	1645040698806	OK	 
+REQUEST		Click Button Next	1645040698817	1645040699020	OK	 
+REQUEST		Select Order With Max Value	1645040700911	1645040701272	KO	regex(class="radio_buttons optional" name="challenger[order_selected]" type="radio" value="(.*?)" id="challenger_order_selected_tzrnugttd3c5ahp1ow5ocgp1v3zgzz09ls1idha0tmw5uc9kn0juzknzcejpnmznpt0--265a246887292d45931b6158b263ec0220a83fdb").find.exists, found nothing
+ERROR	Post_Enter_Max_Number: Failed to build request: No attribute named 'order_selected' is defined 	1645040701296
+USER	HomeTask	END	1645040703079
